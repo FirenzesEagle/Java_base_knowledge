@@ -1,8 +1,8 @@
 package me.liumingbo.threads;
 
-import java.util.Objects;
-
 /**
+ * sleep方法不会释放锁，也就是说如果当前线程持有对某个对象的锁，则即使调用sleep方法，其他线程也无法访问这个对象。
+ * <p>
  * Created by liumingbo on 2016/12/8.
  * Email:liumingbo2008@gmail.com
  */
