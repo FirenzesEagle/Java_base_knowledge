@@ -1,4 +1,4 @@
-package me.liumingbo.threads;
+package me.liumingbo.threads.base;
 
 /**
  * 假如在main线程中，调用thread.join方法，则main方法会等待thread线程执行完毕或者等待一定的时间。

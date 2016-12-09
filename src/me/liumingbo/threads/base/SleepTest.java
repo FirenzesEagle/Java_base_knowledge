@@ -1,4 +1,4 @@
-package me.liumingbo.threads;
+package me.liumingbo.threads.base;
 
 /**
  * sleep方法不会释放锁，也就是说如果当前线程持有对某个对象的锁，则即使调用sleep方法，其他线程也无法访问这个对象。

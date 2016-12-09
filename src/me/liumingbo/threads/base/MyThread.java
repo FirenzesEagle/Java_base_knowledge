@@ -1,4 +1,4 @@
-package me.liumingbo.threads;
+package me.liumingbo.threads.base;
 
 /**
  * Created by FirenzesEagle on 2016/12/7.

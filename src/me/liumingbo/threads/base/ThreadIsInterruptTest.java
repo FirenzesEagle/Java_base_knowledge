@@ -1,4 +1,4 @@
-package me.liumingbo.threads;
+package me.liumingbo.threads.base;
 
 import java.io.IOException;
 

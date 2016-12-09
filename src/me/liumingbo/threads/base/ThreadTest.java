@@ -1,7 +1,6 @@
-package me.liumingbo.threads;
+package me.liumingbo.threads.base;
 
 import java.io.IOException;
-import java.util.Scanner;
 
 /**
  * Created by liumingbo on 2016/12/7.

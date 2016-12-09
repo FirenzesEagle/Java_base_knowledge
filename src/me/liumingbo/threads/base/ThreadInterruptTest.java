@@ -1,4 +1,4 @@
-package me.liumingbo.threads;
+package me.liumingbo.threads.base;
 
 /**
  * 单独调用interrupt方法可以使得处于阻塞状态的线程抛出一个异常，也就说，它可以用来中断一个正处于阻塞状态的线程；

@@ -1,4 +1,4 @@
-package me.liumingbo.threads;
+package me.liumingbo.threads.process;
 
 import java.io.IOException;
 import java.util.Scanner;
