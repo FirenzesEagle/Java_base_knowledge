@@ -1,6 +1,5 @@
 package me.liumingbo.threads.locks;
 
-import java.util.ArrayList;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -9,7 +8,6 @@ import java.util.concurrent.locks.ReentrantLock;
  * Email:liumingbo2008@gmail.com
  */
 public class ReentrantLockTest {
-    private ArrayList<Integer> arrayList = new ArrayList<>();
     private Lock lock = new ReentrantLock();
 
     public static void main(String[] args) {
@@ -35,9 +33,7 @@ public class ReentrantLockTest {
         lock.lock();
         try {
             System.out.println(thread.getName() + "得到了锁");
-            for (int i = 0; i < 5; i++) {
-                arrayList.add(i);
-            }
+            thread.sleep(1000);
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
