@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * Created by FirenzesEagle on 2016/12/9.
  * Email:liumingbo2008@gmail.com
  */
-public class NoSynTest {
+public class NoSyncTest {
     public static void main(String[] args) {
         final InsertData insertData = new InsertData();
 

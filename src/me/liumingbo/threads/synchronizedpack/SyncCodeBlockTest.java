@@ -8,9 +8,9 @@ import java.util.ArrayList;
  * Created by FirenzesEagle on 2016/12/9.
  * Email:liumingbo2008@gmail.com
  */
-public class SynCodeBlockTest {
+public class SyncCodeBlockTest {
     public static void main(String[] args) {
-        final SynCodeBlockThisInsertData synCodeBlockThisInsertData = new SynCodeBlockThisInsertData();
+        final SyncCodeBlockThisInsertData synCodeBlockThisInsertData = new SyncCodeBlockThisInsertData();
 
         new Thread() {
             public void run() {
@@ -26,7 +26,7 @@ public class SynCodeBlockTest {
     }
 }
 
-class SynCodeBlockThisInsertData {
+class SyncCodeBlockThisInsertData {
     private ArrayList<Integer> arrayList = new ArrayList<>();
 
     public void insert(Thread thread) {
@@ -39,7 +39,7 @@ class SynCodeBlockThisInsertData {
     }
 }
 
-class SynCodeBlockAttributeInsertData {
+class SyncCodeBlockAttributeInsertData {
     private ArrayList<Integer> arrayList = new ArrayList<>();
     private Object object = new Object();
 

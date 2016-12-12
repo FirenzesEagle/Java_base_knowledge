@@ -7,9 +7,9 @@ package me.liumingbo.threads.synchronizedpack;
  * Created by FirenzesEagle on 2016/12/9.
  * Email:liumingbo2008@gmail.com
  */
-public class StaticSynTest {
+public class StaticSyncTest {
     public static void main(String[] args) {
-        final StaticSynInsertData staticSynInsertData = new StaticSynInsertData();
+        final StaticSyncInsertData staticSynInsertData = new StaticSyncInsertData();
         new Thread() {
             @Override
             public void run() {
@@ -25,7 +25,7 @@ public class StaticSynTest {
     }
 }
 
-class StaticSynInsertData {
+class StaticSyncInsertData {
     public synchronized void insert() {
         System.out.println("执行insert");
         try {
