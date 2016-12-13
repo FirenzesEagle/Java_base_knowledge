@@ -1,4 +1,4 @@
-package me.liumingbo.threads.synchronizedpack;
+package me.liumingbo.threads.synchronizedPack;
 
 /**
  * 如果一个线程执行一个对象的非static synchronized方法，另外一个线程需要执行这个对象所属类的static synchronized方法，此时不会发生互斥现象，

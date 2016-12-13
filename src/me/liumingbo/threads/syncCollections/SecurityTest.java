@@ -1,4 +1,4 @@
-package me.liumingbo.threads.synccollections;
+package me.liumingbo.threads.syncCollections;
 
 import java.util.Vector;
 

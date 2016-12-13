@@ -1,4 +1,4 @@
-package me.liumingbo.threads.synchronizedpack;
+package me.liumingbo.threads.synchronizedPack;
 
 import java.util.ArrayList;
 
