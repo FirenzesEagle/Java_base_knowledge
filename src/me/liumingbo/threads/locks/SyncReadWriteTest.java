@@ -4,20 +4,20 @@ package me.liumingbo.threads.locks;
  * Created by FirenzesEagle on 2016/12/12.
  * Email:liumingbo2008@gmail.com
  */
-public class SynReadWriteTest {
+public class SyncReadWriteTest {
     public static void main(String[] args) {
-        final SynReadWriteTest synReadWriteTest = new SynReadWriteTest();
+        final SyncReadWriteTest syncReadWriteTest = new SyncReadWriteTest();
 
         new Thread() {
             @Override
             public void run() {
-                synReadWriteTest.get(Thread.currentThread());
+                syncReadWriteTest.get(Thread.currentThread());
             }
         }.start();
         new Thread() {
             @Override
             public void run() {
-                synReadWriteTest.get(Thread.currentThread());
+                syncReadWriteTest.get(Thread.currentThread());
             }
         }.start();
     }
