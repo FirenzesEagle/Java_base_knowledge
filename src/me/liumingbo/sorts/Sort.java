@@ -1,6 +1,5 @@
 package me.liumingbo.sorts;
 
-
 public final class Sort {
 
     /**
@@ -19,6 +18,18 @@ public final class Sort {
                     a[j] = temp;
                 }
             }
+        }
+    }
+
+    public static <AnyType extends Comparable<? super AnyType>>
+    void insertionSort(AnyType[] a) {
+        int j;
+        for (int i = 1; i < a.length; i++) {
+            AnyType tmp = a[i];
+            for (j = i; j > 0 && tmp.compareTo(a[j - 1]) < 0; j--) {
+                a[j] = a[j - 1];
+            }
+            a[j] = tmp;
         }
     }
 
