@@ -1,4 +1,4 @@
-package me.liumingbo.design_pattern.strategy_pattern;
+package me.liumingbo.designPattern.strategyPattern;
 
 /**
  * 冒泡排序

@@ -1,4 +1,4 @@
-package me.liumingbo.design_pattern.strategy_pattern;
+package me.liumingbo.designPattern.strategyPattern;
 
 /**
  * 设计模式 ( 十八 ) 策略模式Strategy（对象行为型）
