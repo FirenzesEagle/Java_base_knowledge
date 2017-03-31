@@ -5,15 +5,14 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Created by FirenzesEagle on 2017/3/30.
- * Email:liumingbo2008@gmail.com
+ * Created by bjliumingbo on 2017/3/31.
  */
-@Vehicle(type = "Benz")
-public class BenzCar extends Car {
-    private static Logger logger = LoggerFactory.getLogger(BenzCar.class);
+@Vehicle(type = "LandRover")
+public class LandRoverCar extends Car {
+    private static Logger logger = LoggerFactory.getLogger(LandRoverCar.class);
 
-    public BenzCar() {
-        this.name = "Benz";
+    public LandRoverCar() {
+        this.name = "LandRoverCar";
     }
 
     @Override
