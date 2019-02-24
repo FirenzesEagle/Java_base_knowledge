@@ -3,6 +3,8 @@ package me.liumingbo.sorts;
 public final class Sort {
 
     /**
+     * 冒泡排序
+     *
      * 最差时间分析: O(n2)
      * 平均时间复杂度: O(n2)
      * 稳定度: 稳定
@@ -21,6 +23,17 @@ public final class Sort {
         }
     }
 
+    /**
+     * 插入排序
+     *
+     * 最差时间分析: O(n2)
+     * 平均时间复杂度: O(n2)
+     * 稳定度: 稳定
+     * 空间复杂度: O(1)
+     *
+     * @param a
+     * @param <AnyType>
+     */
     public static <AnyType extends Comparable<? super AnyType>>
     void insertionSort(AnyType[] a) {
         int j;
